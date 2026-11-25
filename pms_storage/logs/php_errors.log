@@ -1,0 +1,63 @@
+[13-Sep-2026 20:02:13 Asia/Karachi] Class "User" not found (C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\bootstrap.php, line 120)
+[13-Sep-2026 20:02:20 Asia/Karachi] Class "User" not found (C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\bootstrap.php, line 120)
+[13-Sep-2026 20:02:26 Asia/Karachi] Class "User" not found (C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\bootstrap.php, line 120)
+[13-Sep-2026 20:03:16 Asia/Karachi] Class "User" not found (C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\bootstrap.php, line 120)
+[16-Sep-2026 17:09:33 Asia/Karachi] PHP Warning:  Undefined variable $pdo in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php on line 51
+[16-Sep-2026 17:09:33 Asia/Karachi] Cart::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php on line 51 (C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\models\Cart.php, line 24)
+[16-Sep-2026 17:09:33 Asia/Karachi] PHP Warning:  Undefined variable $pdo in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php on line 51
+[16-Sep-2026 17:09:33 Asia/Karachi] PHP Fatal error:  Uncaught TypeError: Cart::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php on line 51 and defined in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\models\Cart.php:24
+Stack trace:
+#0 C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php(51): Cart->__construct(NULL)
+#1 C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\helpers\functions.php(135): require('C:\\Users\\HP 745...')
+#2 C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\helpers\functions.php(165): render('errors/error', Array)
+#3 C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\bootstrap.php(99): showErrorPage(500, 'Something went ...', 'The page could ...', 'Cart::__constru...')
+#4 [internal function]: {closure}(Object(TypeError))
+#5 {main}
+  thrown in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\models\Cart.php on line 24
+[16-Sep-2026 17:09:34 Asia/Karachi] PHP Warning:  Undefined variable $pdo in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php on line 51
+[16-Sep-2026 17:09:34 Asia/Karachi] Cart::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php on line 51 (C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\models\Cart.php, line 24)
+[16-Sep-2026 17:09:34 Asia/Karachi] PHP Warning:  Undefined variable $pdo in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php on line 51
+[16-Sep-2026 17:09:34 Asia/Karachi] PHP Fatal error:  Uncaught TypeError: Cart::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php on line 51 and defined in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\models\Cart.php:24
+Stack trace:
+#0 C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php(51): Cart->__construct(NULL)
+#1 C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\helpers\functions.php(135): require('C:\\Users\\HP 745...')
+#2 C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\helpers\functions.php(165): render('errors/error', Array)
+#3 C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\bootstrap.php(99): showErrorPage(500, 'Something went ...', 'The page could ...', 'Cart::__constru...')
+#4 [internal function]: {closure}(Object(TypeError))
+#5 {main}
+  thrown in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\models\Cart.php on line 24
+[16-Sep-2026 17:10:05 Asia/Karachi] PHP Warning:  Undefined variable $pdo in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php on line 51
+[16-Sep-2026 17:10:05 Asia/Karachi] Cart::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php on line 51 (C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\models\Cart.php, line 24)
+[16-Sep-2026 17:10:05 Asia/Karachi] PHP Warning:  Undefined variable $pdo in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php on line 51
+[16-Sep-2026 17:10:05 Asia/Karachi] PHP Fatal error:  Uncaught TypeError: Cart::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php on line 51 and defined in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\models\Cart.php:24
+Stack trace:
+#0 C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php(51): Cart->__construct(NULL)
+#1 C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\helpers\functions.php(135): require('C:\\Users\\HP 745...')
+#2 C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\helpers\functions.php(165): render('errors/error', Array)
+#3 C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\bootstrap.php(99): showErrorPage(500, 'Something went ...', 'The page could ...', 'Cart::__constru...')
+#4 [internal function]: {closure}(Object(TypeError))
+#5 {main}
+  thrown in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\models\Cart.php on line 24
+[16-Sep-2026 17:10:33 Asia/Karachi] PHP Warning:  Undefined variable $pdo in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php on line 51
+[16-Sep-2026 17:10:33 Asia/Karachi] Cart::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php on line 51 (C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\models\Cart.php, line 24)
+[16-Sep-2026 17:10:33 Asia/Karachi] PHP Warning:  Undefined variable $pdo in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php on line 51
+[16-Sep-2026 17:10:33 Asia/Karachi] PHP Fatal error:  Uncaught TypeError: Cart::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php on line 51 and defined in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\models\Cart.php:24
+Stack trace:
+#0 C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\views\layouts\main_header.php(51): Cart->__construct(NULL)
+#1 C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\helpers\functions.php(135): require('C:\\Users\\HP 745...')
+#2 C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\helpers\functions.php(165): render('errors/error', Array)
+#3 C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\bootstrap.php(99): showErrorPage(500, 'Something went ...', 'The page could ...', 'Cart::__constru...')
+#4 [internal function]: {closure}(Object(TypeError))
+#5 {main}
+  thrown in C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\models\Cart.php on line 24
+[18-Sep-2026 17:02:13 Asia/Karachi] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.alert_date' in 'order clause' (C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\models\StockAlert.php, line 150)
+[18-Sep-2026 17:29:35 Asia/Karachi] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.alert_date' in 'order clause' (C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\models\StockAlert.php, line 150)
+[18-Sep-2026 17:30:43 Asia/Karachi] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'file_path' cannot be null (C:\Users\HP 745 G7\Downloads\Xamppp\htdocs\pharmacy\app\models\Report.php, line 299)
+[21-Sep-2026 23:04:13 Asia/Karachi] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[21-Sep-2026 23:04:18 Asia/Karachi] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[21-Sep-2026 23:04:22 Asia/Karachi] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[21-Sep-2026 23:04:28 Asia/Karachi] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[21-Sep-2026 23:04:35 Asia/Karachi] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[21-Sep-2026 23:04:37 Asia/Karachi] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[21-Sep-2026 23:11:25 Asia/Karachi] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[21-Sep-2026 23:11:44 Asia/Karachi] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
